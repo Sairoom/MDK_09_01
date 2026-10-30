@@ -1,0 +1,4 @@
+-r requirements.txt
+rjsmin==1.2.4
+rcssmin==1.2.2
+playwright>=1.56,<2

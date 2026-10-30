@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Конференции.РФ — профессиональные события, заявки и обратная связь.">
+<title>Управление заявками · Конференции.РФ</title>
+<link rel="icon" href="../../app/static/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../app/static/dist/style.min.css">
+<script defer src="../../app/static/dist/app.min.js"></script></head>
+<body><a class="skip" href="#main">Перейти к содержимому</a>
+<header><div class="container header-inner"><a href="index.html" class="brand"><img src="../../app/static/logo.svg" width="32" height="32" alt="">Конференции<span>.РФ</span></a>
+<nav aria-label="Основная навигация"><a href="index.html" >События</a>
+<a href="applications.html" >Мои заявки</a><a href="account.html">Кабинет</a>
+<a href="admin.html" aria-current="page">Управление</a>
+<form onsubmit="event.preventDefault();alert('Это макет. Для отправки запустите приложение по README.')" action="/logout" method="post" class="inline"><button class="link" type="submit">Выйти</button></form>
+</nav></div></header>
+<main data-preview="mobile" id="main" class="container page-enter"><div class="page-heading"><p class="eyebrow">РАБОЧЕЕ ПРОСТРАНСТВО</p><h1>Управление заявками</h1><p class="muted">Организуйте участие и следите за ходом событий.</p></div><div class="stats"><div><span class="muted">Новая</span><strong>02</strong></div><div><span class="muted">Назначено</span><strong>01</strong></div><div><span class="muted">Завершено</span><strong>01</strong></div></div><form onsubmit="event.preventDefault();alert('Это макет. Для отправки запустите приложение по README.')" method="get" class="filter"><label for="filter">Статус заявки</label><select id="filter" name="status"><option value="">Все статусы</option><option value="1" >Новая</option><option value="2" >Назначено</option><option value="3" >Завершено</option></select><button type="submit" class="button small">Показать</button><a href="admin.html">Сбросить</a></form><div class="application-list"><article class="application-card"><div class="app-top"><span class="badge status-1">Новая</span><span class="muted">Заявка № 004</span></div><h3>Данные и решения</h3><p>11.06.2027 · Онлайн</p><div class="app-details"><span>Онлайн</span><span>Счёт для организации</span><span>Участник: browser_1793227424</span></div>
+<form onsubmit="event.preventDefault();alert('Это макет. Для отправки запустите приложение по README.')" method="post" action="/admin/4/status" class="app-actions"><label for="status-4">Следующий статус</label><select name="status_id" id="status-4"><option value="2">Назначено</option></select><button class="button small" type="submit">Обновить</button></form>
+
+</article><article class="application-card"><div class="app-top"><span class="badge status-3">Завершено</span><span class="muted">Заявка № 003</span></div><h3>Frontend встреча</h3><p>20.09.2025 · Москва · Технопарк</p><div class="app-details"><span>Онлайн</span><span>Банковская карта</span><span>Участник: demo</span></div>
+
+
+<div class="review"><strong>Отзыв участника · 5/5</strong><p>Полезные доклады и отличная организация встречи.</p></div></article><article class="application-card"><div class="app-top"><span class="badge status-2">Назначено</span><span class="muted">Заявка № 002</span></div><h3>Дизайн в деталях</h3><p>21.05.2027 · Москва · Дизайн-центр</p><div class="app-details"><span>Большой зал</span><span>Банковская карта</span><span>Участник: demo</span></div>
+<form onsubmit="event.preventDefault();alert('Это макет. Для отправки запустите приложение по README.')" method="post" action="/admin/2/status" class="app-actions"><label for="status-2">Следующий статус</label><select name="status_id" id="status-2"><option value="3">Завершено</option></select><button class="button small" type="submit">Обновить</button></form>
+
+</article><article class="application-card"><div class="app-top"><span class="badge status-1">Новая</span><span class="muted">Заявка № 001</span></div><h3>Веб без границ</h3><p>16.04.2027 · Москва · Технопарк</p><div class="app-details"><span>Большой зал</span><span>Банковская карта</span><span>Участник: demo</span></div>
+<form onsubmit="event.preventDefault();alert('Это макет. Для отправки запустите приложение по README.')" method="post" action="/admin/1/status" class="app-actions"><label for="status-1">Следующий статус</label><select name="status_id" id="status-1"><option value="2">Назначено</option></select><button class="button small" type="submit">Обновить</button></form>
+
+</article></div></main>
+<footer class="container"><div><strong>Конференции.РФ</strong><p>Знания становятся связями.</p></div><p>Учебный проект · МДК 09.01<br>Ероха Илья · 2026</p></footer></body></html>

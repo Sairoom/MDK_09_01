@@ -1,0 +1,108 @@
+[
+  {
+    "page": "/",
+    "browser": "Firefox",
+    "size": "390x844",
+    "result": "PASS"
+  },
+  {
+    "page": "/register",
+    "browser": "Firefox",
+    "size": "390x844",
+    "result": "PASS"
+  },
+  {
+    "page": "/login",
+    "browser": "Firefox",
+    "size": "390x844",
+    "result": "PASS"
+  },
+  {
+    "page": "/applications",
+    "browser": "Firefox",
+    "size": "390x844",
+    "result": "PASS"
+  },
+  {
+    "page": "/applications/new",
+    "browser": "Firefox",
+    "size": "390x844",
+    "result": "PASS"
+  },
+  {
+    "page": "/account",
+    "browser": "Firefox",
+    "size": "390x844",
+    "result": "PASS"
+  },
+  {
+    "page": "design/desktop/account.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/desktop/admin.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/desktop/applications.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/desktop/apply.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/desktop/index.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/desktop/login.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/desktop/register.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/mobile/account.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/mobile/admin.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/mobile/applications.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/mobile/apply.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/mobile/index.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/mobile/login.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  },
+  {
+    "page": "design/mobile/register.html",
+    "browser": "Chromium",
+    "result": "PASS"
+  }
+]

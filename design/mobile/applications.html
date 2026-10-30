@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Конференции.РФ — профессиональные события, заявки и обратная связь.">
+<title>Мои заявки · Конференции.РФ</title>
+<link rel="icon" href="../../app/static/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../app/static/dist/style.min.css">
+<script defer src="../../app/static/dist/app.min.js"></script></head>
+<body><a class="skip" href="#main">Перейти к содержимому</a>
+<header><div class="container header-inner"><a href="index.html" class="brand"><img src="../../app/static/logo.svg" width="32" height="32" alt="">Конференции<span>.РФ</span></a>
+<nav aria-label="Основная навигация"><a href="index.html" >События</a>
+<a href="applications.html" aria-current="page">Мои заявки</a><a href="account.html">Кабинет</a>
+
+<form onsubmit="event.preventDefault();alert('Это макет. Для отправки запустите приложение по README.')" action="/logout" method="post" class="inline"><button class="link" type="submit">Выйти</button></form>
+</nav></div></header>
+<main data-preview="mobile" id="main" class="container page-enter"><div class="section-head page-heading"><div><p class="eyebrow">ВАШ МАРШРУТ</p><h1>Мои заявки</h1><p class="muted">Все встречи, статусы и впечатления — здесь.</p></div><a class="button" href="apply.html">Новая заявка ↗</a></div><div class="application-list"><article class="application-card"><div class="app-top"><span class="badge status-3">Завершено</span><span class="muted">Заявка № 003</span></div><h3>Frontend встреча</h3><p>20.09.2025 · Москва · Технопарк</p><div class="app-details"><span>Онлайн</span><span>Банковская карта</span></div>
+
+
+<div class="review"><strong>Ваш отзыв · 5/5</strong><p>Полезные доклады и отличная организация встречи.</p></div></article><article class="application-card"><div class="app-top"><span class="badge status-2">Назначено</span><span class="muted">Заявка № 002</span></div><h3>Дизайн в деталях</h3><p>21.05.2027 · Москва · Дизайн-центр</p><div class="app-details"><span>Большой зал</span><span>Банковская карта</span></div>
+
+
+</article><article class="application-card"><div class="app-top"><span class="badge status-1">Новая</span><span class="muted">Заявка № 001</span></div><h3>Веб без границ</h3><p>16.04.2027 · Москва · Технопарк</p><div class="app-details"><span>Большой зал</span><span>Банковская карта</span></div>
+
+<form onsubmit="event.preventDefault();alert('Это макет. Для отправки запустите приложение по README.')" method="post" action="/applications/1/delete" class="app-actions" data-confirm="Отменить эту заявку?"><button class="link danger" type="submit">Отменить заявку</button></form>
+</article></div></main>
+<footer class="container"><div><strong>Конференции.РФ</strong><p>Знания становятся связями.</p></div><p>Учебный проект · МДК 09.01<br>Ероха Илья · 2026</p></footer></body></html>

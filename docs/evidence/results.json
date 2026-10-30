@@ -1,0 +1,124 @@
+[
+  {
+    "test": "home desktop",
+    "result": "PASS",
+    "details": "passed"
+  },
+  {
+    "test": "inline browser validation",
+    "result": "PASS",
+    "details": "passed"
+  },
+  {
+    "test": "register in browser",
+    "result": "PASS",
+    "details": "passed"
+  },
+  {
+    "test": "login in browser",
+    "result": "PASS",
+    "details": "passed"
+  },
+  {
+    "test": "create application in browser",
+    "result": "PASS",
+    "details": "passed"
+  },
+  {
+    "test": "admin access denied",
+    "result": "PASS",
+    "details": "passed"
+  },
+  {
+    "test": "responsive home-mobile",
+    "result": "PASS",
+    "details": {
+      "width": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "test": "responsive applications-mobile",
+    "result": "PASS",
+    "details": {
+      "width": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "test": "responsive apply-mobile",
+    "result": "PASS",
+    "details": {
+      "width": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "test": "responsive account-mobile",
+    "result": "PASS",
+    "details": {
+      "width": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "test": "responsive review-mobile",
+    "result": "PASS",
+    "details": {
+      "width": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "test": "review completed event in browser",
+    "result": "PASS",
+    "details": "passed"
+  },
+  {
+    "test": "responsive register-mobile",
+    "result": "PASS",
+    "details": {
+      "width": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "test": "responsive login-mobile",
+    "result": "PASS",
+    "details": {
+      "width": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "test": "responsive admin-mobile",
+    "result": "PASS",
+    "details": {
+      "width": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "test": "responsive admin-desktop",
+    "result": "PASS",
+    "details": {
+      "width": 1440,
+      "scroll": 1440
+    }
+  },
+  {
+    "test": "admin status filter",
+    "result": "PASS",
+    "details": "passed"
+  },
+  {
+    "test": "prefers-reduced-motion",
+    "result": "PASS",
+    "details": "passed"
+  },
+  {
+    "test": "no JavaScript errors",
+    "result": "PASS",
+    "details": "passed"
+  }
+]

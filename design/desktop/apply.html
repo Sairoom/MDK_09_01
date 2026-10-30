@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Конференции.РФ — профессиональные события, заявки и обратная связь.">
+<title>Новая заявка · Конференции.РФ</title>
+<link rel="icon" href="../../app/static/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../app/static/dist/style.min.css">
+<script defer src="../../app/static/dist/app.min.js"></script></head>
+<body><a class="skip" href="#main">Перейти к содержимому</a>
+<header><div class="container header-inner"><a href="index.html" class="brand"><img src="../../app/static/logo.svg" width="32" height="32" alt="">Конференции<span>.РФ</span></a>
+<nav aria-label="Основная навигация"><a href="index.html" >События</a>
+<a href="applications.html" >Мои заявки</a><a href="account.html">Кабинет</a>
+
+<form onsubmit="event.preventDefault();alert('Это макет. Для отправки запустите приложение по README.')" action="/logout" method="post" class="inline"><button class="link" type="submit">Выйти</button></form>
+</nav></div></header>
+<main data-preview="desktop" id="main" class="container page-enter"><div class="form-layout"><aside><p class="eyebrow">СЛЕДУЮЩАЯ ВСТРЕЧА</p><h1>Идеи ждут<br>вашего участия.</h1><p class="lead">Выберите событие и формат.<br>Мы сохраним всё в вашем кабинете.</p><div class="aside-mark" aria-hidden="true">⌘</div></aside><section class="form-card"><p class="eyebrow">УЧАСТИЕ В СОБЫТИИ</p><h2>Новая заявка</h2><form onsubmit="event.preventDefault();alert('Это макет. Для отправки запустите приложение по README.')" method="post" data-validate><label for="event">Мероприятие</label><select id="event" name="event_id" required><option value="">Выберите событие</option><option value="1" >Веб без границ · 16.04.2027</option><option value="2" >Дизайн в деталях · 21.05.2027</option><option value="3" >Данные и решения · 11.06.2027</option></select><label for="room">Помещение</label><select id="room" name="room" required><option value="">Выберите помещение</option><option value="main" >Большой зал</option><option value="workshop" >Мастерская</option><option value="online" >Онлайн</option></select><label for="payment">Способ оплаты</label><select id="payment" name="payment" required><option value="">Выберите способ оплаты</option><option value="card" >Банковская карта</option><option value="invoice" >Счёт для организации</option></select><p class="helper">Это учебная заявка. Оплата на сайте не производится.</p><p class="form-error" aria-live="polite"></p><button type="submit" class="button full">Отправить заявку <span>↗</span></button></form></section></div></main>
+<footer class="container"><div><strong>Конференции.РФ</strong><p>Знания становятся связями.</p></div><p>Учебный проект · МДК 09.01<br>Ероха Илья · 2026</p></footer></body></html>

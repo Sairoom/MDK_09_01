@@ -1,0 +1,27 @@
+services:
+  db:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: conferences
+      MYSQL_USER: conference
+      MYSQL_PASSWORD: ${DB_PASSWORD:-conference}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-local-root-password}
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u root -p$$MYSQL_ROOT_PASSWORD"]
+      interval: 5s
+      retries: 30
+  web:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      DATABASE_URL: mysql://conference:${DB_PASSWORD:-conference}@db:3306/conferences
+      SECRET_KEY: ${SECRET_KEY:?Set SECRET_KEY in .env}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Set ADMIN_PASSWORD in .env}
+      COOKIE_SECURE: ${COOKIE_SECURE:-0}
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  mysql_data:

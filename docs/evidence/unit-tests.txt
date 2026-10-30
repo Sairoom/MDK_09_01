@@ -1,0 +1,27 @@
+test_admin_filter (test_portal.PortalTests.test_admin_filter) ... ok
+test_all_pages_render (test_portal.PortalTests.test_all_pages_render) ... ok
+test_closed_and_full_events (test_portal.PortalTests.test_closed_and_full_events) ... ok
+test_cookie_and_security_headers (test_portal.PortalTests.test_cookie_and_security_headers) ... ok
+test_create_read_delete (test_portal.PortalTests.test_create_read_delete) ... ok
+test_csrf_required (test_portal.PortalTests.test_csrf_required) ... ok
+test_duplicate_application (test_portal.PortalTests.test_duplicate_application) ... ok
+test_duplicate_registration (test_portal.PortalTests.test_duplicate_registration) ... ok
+test_foreign_keys (test_portal.PortalTests.test_foreign_keys) ... ok
+test_guest_and_participant_permissions (test_portal.PortalTests.test_guest_and_participant_permissions) ... ok
+test_invalid_fields (test_portal.PortalTests.test_invalid_fields) ... ok
+test_login_csrf_rotation (test_portal.PortalTests.test_login_csrf_rotation) ... ok
+test_migration_preserves_legacy_status (test_portal.PortalTests.test_migration_preserves_legacy_status) ... ok
+test_ordered_statuses (test_portal.PortalTests.test_ordered_statuses) ... ok
+test_ownership (test_portal.PortalTests.test_ownership) ... ok
+test_payment_room_allowlist (test_portal.PortalTests.test_payment_room_allowlist) ... ok
+test_registration_and_password_hash (test_portal.PortalTests.test_registration_and_password_hash) ... ok
+test_review_after_completion_and_no_duplicates (test_portal.PortalTests.test_review_after_completion_and_no_duplicates) ... ok
+test_review_validation (test_portal.PortalTests.test_review_validation) ... ok
+test_sql_injection_is_data (test_portal.PortalTests.test_sql_injection_is_data) ... ok
+test_wrong_password (test_portal.PortalTests.test_wrong_password) ... ok
+test_xss_escaped (test_portal.PortalTests.test_xss_escaped) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 8.372s
+
+OK
